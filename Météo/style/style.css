@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 2em;
+    position: relative;
+}
+i.wi{
+    font-size: 3em;
+    line-height: 2em;
+}
+h2{
+    font-size: 2em;
+}
+.tooltip{
+   opacity: 0;
+   position: absolute;
+   top: 0px;
+   left: 10px;
+   color: antiquewhite;
+   background-color: rgb(44, 42, 42);
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 12px;
+   transition:  opacity .3s, top .5s;
+
+}
+h1:hover .tooltip{
+    top: -50px;
+    opacity: 1;
+}
+.clear{
+    background-image: url(soleil.jpg);
+}
+.clouds{
+    background-image: url(nuageux.jpg);
+}
+.rain{
+    background-image: url(pluie.jpg);
+}
+.snow{
+    background-image: url(neige.jpg);
+}
+h5{
+    display:none;
+}
