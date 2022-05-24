@@ -90,4 +90,4 @@ function pause(ms)
  async function myConvertH(strD) {while(true){
     await pause(1000);
 
-     return new Date(strD).getHours()+"h" + new Date(strD).getMinutes() +"m" + new Date(strD).getSeconds()+"s"; }}
+     return new Date(strD).getHours()+"h" + new Date(strD).getMinutes() +"m" }}
